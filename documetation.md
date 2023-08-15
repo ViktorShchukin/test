@@ -10,7 +10,7 @@ At first we need to set up our project.
 
 1. To connect  posgres database to our project we need to copy variables of database from  https://railway.app to variable DATABASES inside test_project/test_project/settings.py file. 
 
-   ![]: /images/DATABASES_variable.jpg
+   ![](/images/DATABASES_variable.jpg)
 
    Then we need to make migrations by command: python manage.py makemigrations app1
 
