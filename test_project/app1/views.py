@@ -14,11 +14,17 @@ def index(request):
 	return HttpResponse("Hello, world. You're at the polls index.")
 
 class UserList(generics.ListCreateAPIView):
+	"""
+	List all users or create new
+	"""
 	queryset = CustomUser.objects.all()
 	serializer_class = UserSerializer
 
 
 class UserDetail(generics.RetrieveUpdateDestroyAPIView):
+	"""
+	Retrieve, update or delete user
+	"""
 	queryset = CustomUser.objects.all()
 	serializer_class = UserSerializer
 
