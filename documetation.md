@@ -22,7 +22,7 @@ At first we need to set up our project.
 
 2. To deploy project on https://vercel.com we need to make file vercel.json into test/test_project  witch contain following settings for vercel: 
 
-   ![]: /images/json_for_vercel.jpg
+   ![](/images/json_for_vercel.jpg)
 
    
 
@@ -30,7 +30,7 @@ At first we need to set up our project.
 
 4. set the host name into ALLOWED_HOSTS variable into settings.py file 
 
-   ![]: /images/ALLOWED_HOSTS_variable.jpg
+   ![](/images/ALLOWED_HOSTS_variable.jpg)
 
    
 
@@ -41,7 +41,7 @@ At first we need to set up our project.
 
 2. select Add New and Project
 
-   ![]: /images/vercel_1.jpg
+   ![](/images/vercel_1.jpg)
 
    
 
@@ -49,19 +49,19 @@ At first we need to set up our project.
 
 4. click import project 
 
-   ![]: /images/vercel_import.jpg
+   ![](/images/vercel_import.jpg)
 
    
 
 5. set name of the project 
 
-   ![]: /images/vercel_name.jpg
+   ![](/images/vercel_name.jpg)
 
    
 
 6. set as root directory  root of django project. For me it's test/test_project
 
-   ![]: /images/vercel_root.jpg
+   ![](/images/vercel_root.jpg)
 
    
 
